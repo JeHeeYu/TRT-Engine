@@ -1,7 +1,9 @@
 #include <iostream>
+#include "engine.h"
 
 int main() 
 {
-    std::cout << "Hello World" << std::endl;
-    return 0;
+    ModelEngine engine;
+    engine.CreateEngine();
 }
+
